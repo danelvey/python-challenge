@@ -9,8 +9,7 @@ with open(csvpath) as csvfile:
     
     ## read the header
     csv_header = next(csvreader)
-    print(f"CSV Header: {csv_header}")
-    
+        
     ## initialise variables
     countMonth = 0
     sumAmount = 0
